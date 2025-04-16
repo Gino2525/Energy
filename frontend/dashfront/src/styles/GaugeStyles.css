@@ -1,0 +1,25 @@
+body {
+    background-color: #111;
+  }
+  
+  .gauge-container {
+    position: relative;
+    width: 250px;
+    height: 250px;
+  }
+  
+  .gauge-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-weight: bold;
+    color: #0ff;
+    text-shadow: 0 0 8px #0ff;
+  }
+  
+  .glow {
+    filter: drop-shadow(0 0 6px rgba(0, 255, 255, 0.8));
+  }
+  

@@ -1,0 +1,283 @@
+/* Card base style */
+.card-box {
+    background: #6b0e0e;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: default;
+  }
+  
+  /* Hover effect */
+  .card-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  }
+  
+  /* Typography enhancements */
+  .card-box h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #bfc7d1;
+    margin-bottom: 10px;
+  }
+  
+  .card-box p,
+  .card-box li {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Sub-card (inner info box) */
+  .card-box .bg-light {
+    background: #f8f9fa;
+    border-left: 4px solid #1a73e8;
+    padding: 16px;
+    border-radius: 10px;
+  }
+  
+  /* Bullet list spacing */
+  .card-box ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .card-box ul li {
+    margin-bottom: 8px;
+  }
+  /* General layout */
+.card-box {
+    background: linear-gradient(135deg, #08447c, #ffffff);
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 123, 255, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .height-100-p {
+    height: 100%;
+  }
+  
+  /* Typography */
+  .font-20 {
+    font-size: 20px;
+  }
+  .font-30 {
+    font-size: 30px;
+  }
+  .font-18 {
+    font-size: 18px;
+  }
+  .weight-500 {
+    font-weight: 500;
+  }
+  .weight-600 {
+    font-weight: 600;
+  }
+  .text-blue {
+    color: #1e40af;
+  }
+  .max-width-600 {
+    max-width: 600px;
+  }
+  
+  /* Grid */
+  .grid {
+    display: grid;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .grid-cols-1 {
+    grid-template-columns: 1fr;
+  }
+  @media (min-width: 768px) {
+    .md\\:grid-cols-2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* Blue Card */
+  .bg-blue {
+    background: linear-gradient(to bottom right, #0b51ad, #eff6ff);
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.1);
+    border: 1px solid #bfdbfe;
+    transition: all 0.3s ease;
+  }
+  .bg-blue:hover {
+    box-shadow: 0 12px 25px rgba(59, 130, 246, 0.2);
+  }
+  
+  /* Inner box */
+  .inner-box {
+    background-color: rgb(153, 12, 12);
+    padding: 1.25rem;
+    border-radius: 1rem;
+    border: 1px solid #c7d2fe;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.05);
+  }
+  
+  /* Text */
+  .text-blue-800 {
+    color: #1e3a8a;
+  }
+  .text-blue-700 {
+    color: #1d4ed8;
+  }
+  .text-blue-600 {
+    color: #2563eb;
+  }
+  
+  /* Button */
+  .button-blue {
+    padding: 0.5rem 1rem;
+    background-color: #1d4ed8;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  .button-blue:hover {
+    background-color: #1e40af;
+  }
+  
+  /* Card base style */
+.card-box {
+    background: #1d4ed8; /* solid blue background */
+    color: red; /* default text color red */
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: default;
+  }
+  
+  /* Hover effect */
+  .card-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  }
+  
+  /* Typography enhancements */
+  .card-box h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: white; /* override to red */
+    margin-bottom: 10px;
+  }
+  
+  .card-box p,
+  .card-box li {
+    font-size: 30px;
+    color: white; /* override to red */
+    line-height: 1.6;
+  }
+  
+  /* Sub-card (inner info box) */
+  .card-box .bg-light {
+    background: #3b82f6; /* medium blue inner box */
+    color: green; /* font red inside */
+    border-left: 4px solid #1a73e8;
+    padding: 16px;
+    border-radius: 10px;
+  }
+  
+  /* Bullet list spacing */
+  .card-box ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .card-box ul li {
+    margin-bottom: 8px;
+  }
+  
+  /* General layout */
+  .card-box {
+    background: #6071a1; /* override to solid blue */
+    color: rgb(105, 52, 52); /* text color red */
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 123, 255, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  /* Optional: Adjust inner-box styles if you use them */
+  .inner-box {
+    background-color: #092758;
+    color: white;
+    padding: 1.25rem;
+    border-radius: 1rem;
+    border: 1px solid #c7d2fe;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.05);
+  }
+  
+  .welcome-card {
+    background: linear-gradient(135deg, #2563eb, #1e3a8a); /* blue gradient */
+    color: white;
+    padding: 24px;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    transition: all 0.3s ease;
+  }
+  
+  .welcome-card:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  }
+  
+  .welcome-card h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+  
+  .welcome-card p {
+    color: #f3f4f6;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .inner-card {
+    background: #ffffff;
+    color: #1e3a8a;
+    padding: 20px;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1);
+    border: 1px solid #dbeafe;
+  }
+  
+  .inner-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  
+  .inner-card p {
+    color: #1d4ed8;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+  
+  .inner-card ul {
+    list-style: none;
+    padding: 0;
+    color: #1d4ed8;
+  }
+  
+  .inner-card li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  
+  .inner-card li span:first-child {
+    font-size: 18px;
+    margin-right: 8px;
+  }
+  

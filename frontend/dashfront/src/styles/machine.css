@@ -1,0 +1,60 @@
+/* machine.css */
+
+.machine-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    gap: 2rem;
+    padding: 2rem;
+    margin-left: 2rem; /* Left gap */
+    justify-items: center;
+  }
+  
+  .machine-card {
+    width: 100%;
+    max-width: 350px;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: #ffb347; /* Pastel orange */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .machine-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .status {
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  
+  .status.on {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .status.off {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .machine-details {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+  }
+  
+  .last-updated {
+    font-size: 0.85rem;
+    color: #333;
+  }
+  

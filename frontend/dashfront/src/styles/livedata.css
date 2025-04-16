@@ -1,0 +1,65 @@
+/* scoped better */
+.livedata-wrapper {
+    margin-left: 250px;
+    padding: 20px;
+    width: calc(100% - 250px);
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .livedata-content {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .livedata-card {
+    background: linear-gradient(135deg, #164e75, #a2aeb4);
+    border: 1px solid #b6dbf6;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .livedata-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 102, 204, 0.2);
+  }
+  
+  .livedata-wrapper {
+    margin-left: 250px;
+    padding: 70px 20px 20px 20px; /* top padding added */
+    width: calc(100% - 250px);
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .email-input {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 250px;
+  }
+  
+  .send-email-button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #0a58ca;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .send-email-button:hover {
+    background-color: #004ea2;
+  }
+  

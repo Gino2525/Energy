@@ -67,3 +67,22 @@ htmlcov/
 .mypy_cache/
 dmypy.json
 dmypy.log
+
+
+# Python
+*.pyc
+__pycache__/
+env/
+menv/
+db.sqlite3
+*.log
+*.pkl
+
+# Node
+node_modules/
+frontend/dashfront/.env
+frontend/dashfront/build/
+
+# OS
+.DS_Store
+Thumbs.db

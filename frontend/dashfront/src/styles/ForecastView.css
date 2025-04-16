@@ -1,0 +1,70 @@
+/* ForecastView.css */
+
+.center-message {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Optional: Smooth fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+.forecast-container {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table thead th {
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .table tbody td {
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 500;
+  }
+  
+  h2 {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+
+  /* ForecastView.css */
+
+.center-message {
+    text-align: center;
+    margin-top: 120px;
+    font-size: 1.6rem;
+    color: #333;
+    font-weight: 500;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
